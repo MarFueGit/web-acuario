@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peces marinos</title>
+
+<style>
+body {
+    margin: 0px;
+}
+#nav{
+    width: 750px;
+    height: 50px;
+    margin: 0 auto;
+}
+li{
+    font-size: 20px;
+    font-weight: 600;
+}
+ul{
+    margin: 0px;
+}
+#nav li, #pie li{
+    list-style: none;
+    float: left;
+    width: auto;
+    margin: 15px 15px 0 0;
+    font-weight: 600;
+    
+}
+a{
+    text-decoration: none;
+    color: #777;
+    padding: 5px;
+}
+a:hover{
+    background-color: #AAB7B8 ;
+    color: blue;
+
+}
+#logo{
+    float: left ;
+    margin-right: 50px;
+    overflow: hidden;
+    background-size: cover;
+
+}
+#cabecera{
+    width: 100%;
+    height: 400px;
+    background-image:url(http://static.animalear.com/b/wp-content/uploads/2014/10/540dc6daf152es296230_p-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#pie {
+    width: 100%;
+    height: 50px;
+    background-color:#E5E7E9 ;
+   
+}
+#cuerpo{
+    width: 955px;
+    height: auto; 
+    overflow: hidden;
+    margin: 0 auto;
+}
+.article{
+    width: 200px;
+    height: 450px;
+    float: left;
+    margin: 9px;
+    padding: 10px;
+    overflow: hidden;
+}
+.article:hover{
+    background-color: #F4F6F6 ;
+}
+.redondo{
+    width: 200px;
+    height: 200px;
+    border-radius: 150%;
+    box-shadow: 5px 5px 2px #AAB7B8;
+}
+h3{
+    text-align: center;
+}
+p{
+    color: #555;
+    text-align: justify;
+}
+.btn{
+    margin: 0 auto;
+    width: 50px;
+    height: 20px;
+    border-radius: 3px;
+    background-color: mediumblue;
+    padding: 2px 10px 2px 10px;
+    color: white;
+   
+}
+.btn:hover{
+    background-color: white;
+    border: 1px solid blue;
+    color: blue;
+}
+@media(min-width= 900px){
+    #nav{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+}
+    .redondo{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+</style>
+</head>
+<body>
+  
+<div id="nav">
+    <img src="./assets/img/logopez.jpg" id="logo" width="50px" height="50px" alt="Logo">
+<ul>
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="">Complementos</a></li>
+    <li><a href="">Alimentos</a></li>
+    <li><a href="">Acuarios</a></li>
+    <li><a href="">Peces</a></li>
+</ul>
+</div>
+<div id="cabecera"></div>
+<div id="cuerpo">
+    <div class="article">
+    <img src="https://images.pexels.com/photos/128756/pexels-photo-128756.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="redondo" alt="pez">
+<h3>Pez Payaso</h3>
+<p>La coloracion del cuerpo es de naranja brillante o marron rojizo, con tres franjas blancas, que cruzan longituralmente el cuerpo, dividido en tres porciones</p>
+<a href="pezpayaso.html"><div class="btn">Mostrar</div></a>
+   </div> 
+   <div class="article">
+    <img src="https://images.pexels.com/photos/1145274/pexels-photo-1145274.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="redondo" alt="pez">
+<h3>Pez mariposa amarillo</h3>
+<p>El pez mariposa amarillo es un pez tropícal de colores vivos, principalmente de color amarillo facil de mantener en los acuarios. Aparte que son de brillantes colores.</p>
+<a href="pezmariposa.html"><div class="btn">Mostrar</div></a>
+   </div> 
+   <div class="article">
+    <img src="https://images.pexels.com/photos/7987539/pexels-photo-7987539.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="redondo" alt="pez">
+<h3>Pez cirujano amarillo</h3>
+<p>El pez cirujano amarillo es un pez con el cuerpo ovalado y comprimido, con el morro relativamente largo y una boca pequeña, Tiene una escama modificada. </p>
+<a href="pezcirujanoamarillo.html"><div class="btn">Mostrar</div></a>
+   </div> 
+   <div class="article">
+    <img src="https://images.pexels.com/photos/78790/perch-cichlid-discus-cichlid-freshwater-fish-78790.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="redondo" alt="pez">
+<h3>Pez cirujano</h3>
+<p>Posee un cuerpo comprimido en sus laterales, de un color azul intenso con dos rayas negras bien definidas que lo cruzan, ademas posee una aleta caudal, </p>
+<a href="pezcirujano.html"><div class="btn">Mostrar</div></a>
+   </div> 
+</div>
+
+<div id="pie">
+<ul>
+    <li>Derechos del autor</li>
+    <li>Privacidad</li>
+    <li>Terminos en uso</li>
+    <li>Sobre nosotros</li>
+    <li>Contacto</li>
+</ul>
+</div>
+</body>
+</html>
